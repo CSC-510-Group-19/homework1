@@ -1,3 +1,4 @@
+# Simple non-recursive approach to generating a fibonacci series
 def non_recursive_fib(num):
     last, curr = 0, 1
     for i in range(2, num + 1):
